@@ -14,9 +14,9 @@ pip install web3
 
 ## Integrate with Infura
 
-Create an Infura Account here: https://infura.io/
-Create a new project and copy the Project ID
-Paste the Project ID into index.js
+* Create an Infura Account here: https://infura.io/
+* Create a new project and copy the Project ID
+* Paste the Project ID into index.js
 
 ```python
 #index.js
