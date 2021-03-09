@@ -1,7 +1,7 @@
 from web3 import Web3, middleware
 from web3.gas_strategies.time_based import medium_gas_price_strategy
 
-INFURA_PROJECT_ID = '20ef081861e8416d9bbac529008b668f'
+INFURA_PROJECT_ID = 'project_id'
 w3 = Web3(Web3.HTTPProvider(f'https://mainnet.infura.io/v3/{INFURA_PROJECT_ID}'))
 
 w3.eth.setGasPriceStrategy(medium_gas_price_strategy)
